@@ -6,6 +6,4 @@
 
 [notify_update_number_of_listeners.js](./notify_update_number_of_listeners.js)
 
-https://qiita.com/JeYA9JoHojZtZYG/items/b404178dde49a1422470
-
-
+使い方 https://qiita.com/JeYA9JoHojZtZYG/items/b404178dde49a1422470
