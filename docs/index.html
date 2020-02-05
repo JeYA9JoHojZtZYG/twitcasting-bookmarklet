@@ -2,9 +2,14 @@
 
 <ul>
   <li>
-    <a href="javascript:(()=>{let t,e=()=>parseInt(document.querySelector('.tw-fraction').textContent.split('/')[0]),n=e(),o=setInterval(()=>{(t=e())>n&&new Notification(t+'名様いらっしゃい'),n=t},2e3);console.log('Interval ID = '+o)})();">
-      閲覧人数更新通知: n名様いらっしゃい
-    </a>
+    <p>閲覧人数更新通知: n名様いらっしゃい</p>
+
+    <pre>
+      <code>
+	javascript:(()=>{let t,e=()=>parseInt(document.querySelector('.tw-fraction').textContent.split('/')[0]),n=e(),o=setInterval(()=>{(t=e())>n&&new Notification(t+'名様いらっしゃい'),n=t},2e3);console.log('Interval ID = '+o)})();
+      </code>
+    </pre>
+
     (
     <a href="https://github.com/JeYA9JoHojZtZYG/twitcasting-bookmarklet/tree/master/notify_update_number_of_listeners.js">ソース</a>
     /
@@ -14,9 +19,13 @@
   </li>
 
   <li>
-    <a href="javascript:(new MutationObserver((t,e)=>{t.find(t=>t.target.classList.contains('tw-timeup-timer--will-end-soon'))&&new Notification('赤字です。')})).observe(document.querySelector('.tw-status-indicator'),{attributes:!0});">
-      赤字通知: 赤字です
-    </a>
+    <p>赤字通知: 赤字です</p>
+
+    <pre>
+      <code>
+	javascript:(new MutationObserver((t,e)=>{t.find(t=>t.target.classList.contains('tw-timeup-timer--will-end-soon'))&&new Notification('赤字です。')})).observe(document.querySelector('.tw-status-indicator'),{attributes:!0});
+      </code>
+    </pre>
     (
     <a href="https://github.com/JeYA9JoHojZtZYG/twitcasting-bookmarklet/tree/master/notify_red_time.js">ソース</a>
     /
