@@ -1,6 +1,6 @@
 # ツイキャス用ブックマークレット
 
-<a href="javascript:alert('AFGB')"></a>
+<a href="javascript:alert('AFGB')">aaa</a>
 
 ## 閲覧者数更新通知
 
